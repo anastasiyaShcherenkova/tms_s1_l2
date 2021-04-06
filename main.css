@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    max-width: 1400px;
+    width: 100%;
+    height: 595px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+h2 {
+    margin-top: 100px;
+    font-family: "Raleway";
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.line {
+    margin: 25px auto 0;
+    width: 64px;
+    height: 2px;
+    background-color: #E72424;
+}
+
+p {
+    margin-top: 16px;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+
+.description {
+    margin-top: 30px;
+    color: #86878b;
+}
+
+.card {
+    display: inline-block;
+    width: 350px;
+    margin: 67px 32px 0 0;
+}
+
+.card:nth-child(3) {
+    margin-right: 0;
+}
+
+.circle {
+    display: block;
+    width: 70px; 
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 1px solid #E72424;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.circle:nth-child(1) {
+    background-image: url(./images/lamp.png);
+}
+
+.circle:nth-child(2) {
+    background-image: url(./images/keyboard.png);
+}
+
+.circle:nth-child(3) {
+    background-image: url(./images/lightning.png);
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
