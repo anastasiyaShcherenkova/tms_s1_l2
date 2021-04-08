@@ -17,11 +17,18 @@ main {
     padding-top: 100px;
 }
 
+.content {
+    padding: 0 100px;
+}
+
+.title {
+    font-size: 36px;
+}
+
 h2 {
     margin-top: 100px;
     font-family: "Raleway";
     font-weight: 400;
-    font-size: 36px;
 }
 
 .line {
@@ -45,13 +52,14 @@ p {
 
 .cards_wrapper {
     margin-top: 67px;
+    font-size: 0;
+    width: calc(100% + 32px);
 }
 
 .card {
     display: inline-block;
     box-sizing: border-box;
-    width: 33%;
-    /* width: calc( 100% / 3 ); */
+    width: calc( 100% / 3 );
     padding: 0 16px;
 }
 
